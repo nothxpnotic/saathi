@@ -47,42 +47,6 @@ saathi/
 
 ---
 
-## Quickstart
-
-### 1. Clone
-
-```bash
-git clone https://github.com/<your-handle>/saathi.git
-cd saathi
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Train the model
-
-```bash
-python saathi_model.py
-```
-
-This will:
-- Generate a 5,000-record synthetic OPD dataset (proxy for real OPD registers)
-- Train the Gradient Boosted Classifier
-- Print accuracy, AUC, and a 5-fold cross-validation report
-- Save the model to `models/`
-- Save evaluation plots to `models/`
-
-### 4. Launch the prototype UI
-
-```bash
-python saathi_ui.py
-```
-
----
-
 ## Machine Learning Pipeline
 
 ### Input Features
@@ -108,14 +72,6 @@ GradientBoostingClassifier(
     random_state   = 42,
 )
 ```
-
-**Why GBC?**
-- Handles mixed numeric + categorical features without one-hot explosion
-- Robust to the class imbalance typical of OPD registers (many Routine,
-  fewer Immediate presentations)
-- Excellent probability calibration — essential for reliable confidence
-  scores on the triage slip
-- Low inference latency: suitable for ONNX export and Android deployment
 
 ### Expected Performance (Synthetic Dataset — for proof of concept only)
 
