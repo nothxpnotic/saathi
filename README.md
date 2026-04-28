@@ -41,18 +41,6 @@ infrastructure**, and supports **English, Urdu, and regional languages**.
 | `heart_rate` | Heart rate (bpm) | 30 – 220 |
 | `complaint` | Chief complaint (integer code) | 0 – 9 |
 
-### Model: `GradientBoostingClassifier`
-
-```python
-GradientBoostingClassifier(
-    n_estimators   = 300,
-    learning_rate  = 0.08,
-    max_depth      = 4,
-    subsample      = 0.8,
-    max_features   = "sqrt",
-    random_state   = 42,
-)
-```
 
 ### Expected Performance (Synthetic Dataset — for proof of concept only)
 
