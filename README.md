@@ -28,25 +28,6 @@ infrastructure**, and supports **English, Urdu, and regional languages**.
 
 ---
 
-## Repository Structure
-
-```
-saathi/
-├── saathi_model.py        ← GBC training & inference pipeline
-├── saathi_ui.py           ← Desktop/tablet prototype UI (Tkinter)
-├── requirements.txt       ← Python dependencies
-├── models/                ← Auto-created on first training run
-│   ├── saathi_gbc_model.pkl
-│   ├── scaler.pkl
-│   ├── label_encoder.pkl
-│   ├── confusion_matrix.png
-│   └── feature_importance.png
-├── slips/                 ← Auto-created; printed triage slips (.txt)
-└── README.md
-```
-
----
-
 ## Machine Learning Pipeline
 
 ### Input Features
