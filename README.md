@@ -7,8 +7,8 @@
 
 ## Overview
 
-Pakistan's doctor-to-patient ratio of **1:1,300** — well below the
-WHO-recommended 1:1,000 — means that most public OPDs process well over
+Pakistan's doctor-to-patient ratio of **1:1,300**, well below the
+WHO-recommended 1:1,000 — means that most public OPDs process over
 1,200 patients daily with **no structured triage system**.  Life-threatening
 presentations are routinely missed until it is too late.
 
